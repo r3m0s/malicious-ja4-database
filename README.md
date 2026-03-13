@@ -7,4 +7,4 @@
 ```
 
 # Malicious JA4 Database
-This is a minimal database and collection of malicious ja4 TLS client fingerprint hashes collected from various blogs and sandbox reports. Hashes were collected by searching for malicious sha-256 checksums from known malware samples.
+This is a minimal dataset and collection of malicious ja4 TLS client fingerprints collected from various blogs and sandbox reports. Hashes were collected by searching for malicious sha-256 checksums of known malware samples.
