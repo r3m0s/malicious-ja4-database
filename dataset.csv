@@ -1,24 +1,25 @@
-﻿ThreatLabel,Action,JA4,JA4Server,JA4HTTP,JA4TCP,JA4TCPServer,JA3,Blog,Malpedia,MITRE ATT&CK,Website,GitHub
-Covenant Grunt Stager,execute,t10i060500_4dc025c38c38_950472255fe9,t100400_c014_12a20535f9be,ge11cn030000_b0d6a43aa599_6efb8437d5a1_0277fba68047|po11cn040000_d157cf9277e4_6efb8437d5a1_9b856eebda45,65535_2-1-3-1-1-4_1460_8,64240_2-1-1-4-1-3_1460_9,43016d7f7f9336b17c884650d0d2545d,,https://malpedia.caad.fkie.fraunhofer.de/details/win.grunt,https://attack.mitre.org/software/S1155,,https://github.com/cobbr/covenant
-Covenant Grunt Stager,download,,t120400_c030_12a20535f9be,,65535_2-1-3-1-1-4_1460_8,64240_2-1-1-4-1-3_1460_9,,,https://malpedia.caad.fkie.fraunhofer.de/details/win.grunt,https://attack.mitre.org/software/S1155,,https://github.com/cobbr/covenant
-Cobalt Strike,,t12d190800_d83cc789557e_7af1ed941c26,,,,,,https://www.netresec.com/?page=Blog&month=2024-01&post=Hunting-for-Cobalt-Strike-in-PCAP,https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike,https://attack.mitre.org/software/S0154,https://web.archive.org/web/20210825130434/https://cobaltstrike.com/downloads/csmanual38.pdf,
-Sliver,,,,,,,,,https://malpedia.caad.fkie.fraunhofer.de/details/win.sliver,https://attack.mitre.org/software/S0633,https://sliver.sh,https://github.com/BishopFox/sliver
-Brute Ratel C4,,,,,,,,https://unit42.paloaltonetworks.com/brute-ratel-c4-tool,,https://attack.mitre.org/software/S1063,https://bruteratel.com,
-Mythic,,,,,,,,,,https://attack.mitre.org/software/S0699,,https://github.com/its-a-feature/Mythic
-MITRE Caldera,,,,,,,,,,,https://caldera.mitre.org,https://github.com/mitre/caldera
-Nettitude PoshC2,,,,,,,,https://securityscorecard.com/wp-content/uploads/2024/01/A-Deep-Dive-Into-a-PoshC2-Implant.pdf,,https://attack.mitre.org/software/S0378,https://poshc2.readthedocs.io/en/latest,https://github.com/nettitude/PoshC2
-Havoc,,,,,,,,,,https://attack.mitre.org/software/S1229,https://havocframework.com,https://github.com/HavocFramework/Havoc
-Metasploit,,,,,,,,,,,https://www.metasploit.com,https://github.com/rapid7/metasploit-framework
-Burp Suite,,,,,,,,,,,https://portswigger.net/burp,
-Zed Attack Proxy (ZAP),,,,,,,,,,,https://www.zaproxy.org,https://github.com/zaproxy/zaproxy
-ShadowPad,,,,,,,,,,,,
-Poison Ivy,,,,,,,,https://www.huntress.com/threat-library/malware/poison-ivy,https://malpedia.caad.fkie.fraunhofer.de/details/win.poison_ivy,https://attack.mitre.org/software/S0012,,
-Ligolo-ng,,,,,,,,,,,,https://github.com/nicocha30/ligolo-ng
-AADInternals,,,,,,,,https://aadinternals.com/post/just-looking,,https://attack.mitre.org/software/S0677,,https://github.com/gerenios/aadinternals
-AzureHound,,,,,,,,,,,,https://github.com/SpecterOps/AzureHound
-TokenTactics,,,,,,,,,,,,https://github.com/rvrsh3ll/TokenTactics
-TokenTacticsV2,,,,,,,,,,,,https://github.com/f-bader/TokenTacticsV2
-GraphRunner,,,,,,,,,,,,https://github.com/dafthack/GraphRunner
-GraphSpy,,,,,,,,,,,,https://github.com/RedByte1337/GraphSpy
-Pupy,,,,,,,,,,https://attack.mitre.org/software/S0192,,https://github.com/n1nj4sec/pupy
-SILENTTRINITY,,,,,,,,,,https://attack.mitre.org/software/S0692,,https://github.com/byt3bl33d3r/SILENTTRINITY
+﻿ThreatLabel,Action,Mode,Type,Tags,Protocol,OS,JA4,JA4Server,JA4HTTP,JA4TCP,JA4TCPServer,JA3,Blog,Malpedia,MITRE ATT&CK,Website,GitHub
+Covenant Grunt Stager,execute,,implant,,,Windows|MacOS|Linux,t10i060500_4dc025c38c38_950472255fe9,t100400_c014_12a20535f9be,ge11cn030000_b0d6a43aa599_6efb8437d5a1_0277fba68047|po11cn040000_d157cf9277e4_6efb8437d5a1_9b856eebda45,65535_2-1-3-1-1-4_1460_8,64240_2-1-1-4-1-3_1460_9,43016d7f7f9336b17c884650d0d2545d,,https://malpedia.caad.fkie.fraunhofer.de/details/win.grunt,https://attack.mitre.org/software/S1155,,https://github.com/cobbr/covenant
+Covenant Grunt Stager,download,,implant,,,Windows|MacOS|Linux,,t120400_c030_12a20535f9be,,65535_2-1-3-1-1-4_1460_8,64240_2-1-1-4-1-3_1460_9,,,https://malpedia.caad.fkie.fraunhofer.de/details/win.grunt,https://attack.mitre.org/software/S1155,,https://github.com/cobbr/covenant
+Cobalt Strike,,,,,,,t12d190800_d83cc789557e_7af1ed941c26,,,,,,https://www.netresec.com/?page=Blog&month=2024-01&post=Hunting-for-Cobalt-Strike-in-PCAP,https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike,https://attack.mitre.org/software/S0154,https://web.archive.org/web/20210825130434/https://cobaltstrike.com/downloads/csmanual38.pdf,
+Sliver,,beacon,implant,mTLS|WireGuard,HTTPS|HTTP|DNS|mTLS,Windows|MacOS|Linux,,,,,,,,https://malpedia.caad.fkie.fraunhofer.de/details/win.sliver,https://attack.mitre.org/software/S0633,https://sliver.sh,https://github.com/BishopFox/sliver
+Sliver,,session,implant,mTLS|WireGuard,HTTPS|HTTP|DNS|mTLS,Windows|MacOS|Linux,t13i131000_f57a46bbacb6_e5728521abd4,t130200_1303_a56c5b993250,,65535_2-1-3-1-1-4_1460_8,64240_2-1-1-4-1-3_1460_9,006598cf32b8feecd39e4337bdba9c44,,https://malpedia.caad.fkie.fraunhofer.de/details/win.sliver,https://attack.mitre.org/software/S0634,https://sliver.sh,https://github.com/BishopFox/sliver
+Brute Ratel C4,,,,,,,,,,,,,https://unit42.paloaltonetworks.com/brute-ratel-c4-tool,,https://attack.mitre.org/software/S1063,https://bruteratel.com,
+Mythic,,,,,,,,,,,,,,,https://attack.mitre.org/software/S0699,,https://github.com/its-a-feature/Mythic
+MITRE Caldera,,,,,,,,,,,,,,,,https://caldera.mitre.org,https://github.com/mitre/caldera
+Nettitude PoshC2,,,,,,,,,,,,,https://securityscorecard.com/wp-content/uploads/2024/01/A-Deep-Dive-Into-a-PoshC2-Implant.pdf,,https://attack.mitre.org/software/S0378,https://poshc2.readthedocs.io/en/latest,https://github.com/nettitude/PoshC2
+Havoc,,,,,,,,,,,,,,,https://attack.mitre.org/software/S1229,https://havocframework.com,https://github.com/HavocFramework/Havoc
+Metasploit,,,,,,,,,,,,,,,,https://www.metasploit.com,https://github.com/rapid7/metasploit-framework
+Burp Suite,,,,,,,,,,,,,,,,https://portswigger.net/burp,
+Zed Attack Proxy (ZAP),,,,,,,,,,,,,,,,https://www.zaproxy.org,https://github.com/zaproxy/zaproxy
+ShadowPad,,,,,,,,,,,,,,,,,
+Poison Ivy,,,,,,,,,,,,,https://www.huntress.com/threat-library/malware/poison-ivy,https://malpedia.caad.fkie.fraunhofer.de/details/win.poison_ivy,https://attack.mitre.org/software/S0012,,
+Ligolo-ng,,,,,,,,,,,,,,,,,https://github.com/nicocha30/ligolo-ng
+AADInternals,,,,,,,,,,,,,https://aadinternals.com/post/just-looking,,https://attack.mitre.org/software/S0677,,https://github.com/gerenios/aadinternals
+AzureHound,,,,,,,,,,,,,,,,,https://github.com/SpecterOps/AzureHound
+TokenTactics,,,,,,,,,,,,,,,,,https://github.com/rvrsh3ll/TokenTactics
+TokenTacticsV2,,,,,,,,,,,,,,,,,https://github.com/f-bader/TokenTacticsV2
+GraphRunner,,,,,,,,,,,,,,,,,https://github.com/dafthack/GraphRunner
+GraphSpy,,,,,,,,,,,,,,,,,https://github.com/RedByte1337/GraphSpy
+Pupy,,,,,,,,,,,,,,,https://attack.mitre.org/software/S0192,,https://github.com/n1nj4sec/pupy
+SILENTTRINITY,,,,,,,,,,,,,,,https://attack.mitre.org/software/S0692,,https://github.com/byt3bl33d3r/SILENTTRINITY
