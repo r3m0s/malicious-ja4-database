@@ -24,7 +24,7 @@ Collects Malware source code, samples, and papers.
 ### Encyclopaedias
 These web services convey in-depth knowledge about current Malware trends and usages.
 
-#### [MITRE ATT&CK Software List by MITRE](https://attack.mitre.org/software)
+#### [MITRE ATT&CK's Software List](https://attack.mitre.org/software)
 MITRE collects tools and Malware that cover their techniques and could be or are known to be used by adversaries. While tools can refer to built-in OS Software such as `net`, `certutil` or `netstat`, Malware is intended to be used solely for malicious purposes.
 
 #### [Malpedia by Fraunhofer Institute for Communication, Information Processing and Ergonomics FKIE](https://malpedia.caad.fkie.fraunhofer.de/library)
