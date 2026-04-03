@@ -30,9 +30,9 @@ This is a minimal dataset and collection of potentially malicious JA3 and JA4 TL
 - [x] Sliver
 - [x] Covenant
 - [x] GraphSpy
-- [ ] TokenTactics
-- [ ] TokenTacticsV2
-- [ ] AADInternals
+- [x] TokenTactics
+- [x] TokenTacticsV2
+- [x] AADInternals
 - [ ] ROADtools
 - [ ] AzureHound
 - [ ] Metasploit
