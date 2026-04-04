@@ -6,11 +6,15 @@
  |_|  |_\__,_|_|_\__|_\___/\_,_/__/  \__/_/ \_\|_|  |___/\__,_|\__\__,_|_.__/\__,_/__/\___|
 ```
 
-![JA3](https://img.shields.io/badge/JA3-8A2BE2?style=flat)
-![JA4](https://img.shields.io/badge/JA4-00BC65?style=flat)
-![Static Badge](https://img.shields.io/badge/dataset_size-4-EA582D?style=flat)
+![Static Badge](https://img.shields.io/badge/dataset_size-10-EA582D?style=flat)
 ![Static Badge](https://img.shields.io/badge/attributes-23-FAC306?style=flat)
 ![Commit Activity](https://img.shields.io/github/commit-activity/m/badges/shields)
+
+![JA3](https://img.shields.io/badge/JA3-8A2BE2?style=flat)
+![JA4](https://img.shields.io/badge/JA4-00BC65?style=flat)
+![TCP](https://img.shields.io/badge/TCP-55FE99?style=flat)
+![TLS](https://img.shields.io/badge/TLS-23C1E7?style=flat)
+![HTTP](https://img.shields.io/badge/HTTP-7f2135?style=flat)
 
 <div align="left">
 <picture>
@@ -33,8 +37,13 @@ This is a minimal dataset and collection of potentially malicious JA3 and JA4 TL
 - [x] TokenTactics
 - [x] TokenTacticsV2
 - [x] AADInternals
-- [ ] ROADtools
-- [ ] AzureHound
+- [x] ROADtools
+- [x] AzureHound
+- [x] GraphRunner
+- [ ] Burp Suite
+- [ ] Zed Attack Proxy (ZAP)
+- [ ] MITRE Caldera
+- [ ] Posh C2
 - [ ] Metasploit
 - [ ] Mythic
 
